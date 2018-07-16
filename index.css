@@ -10,8 +10,10 @@ body {
 }
 
 :root {
-  --pomodo-color: #d9534f;
-  --pomodo-color-dark: #c9302c;
+  --red-color: #d9534f;
+  --red-color-dark: #c9302c;
+  --green-color: #5cb85c;
+  --green-color-dark: #449d44;
 }
 
 .pomodo {
@@ -19,8 +21,15 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  background-color: var(--pomodo-color);
   color: white;
+}
+
+.pomodo--state--progress {
+  background-color: var(--red-color);
+}
+
+.pomodo--state--break {
+  background-color: var(--green-color);
 }
 
 .pomodo__timer {
@@ -49,8 +58,12 @@ body {
   outline: 0;
 }
 
-.btn:hover {
-  background-color: var(--pomodo-color-dark);
+.btn--state--progress:hover {
+  background-color: var(--red-color-dark);
+}
+
+.btn--state--break:hover {
+  background-color: var(--green-color-dark);
 }
 
 .control__stop {
