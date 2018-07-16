@@ -1,0 +1,58 @@
+html, body, #app {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+:root {
+  --pomodo-color: #d9534f;
+  --pomodo-color-dark: #c9302c;
+}
+
+.pomodo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  background-color: var(--pomodo-color);
+  color: white;
+}
+
+.pomodo__timer {
+  font-size: 5rem;
+  font-weight: 100;
+  align-self: center;
+}
+
+.pomodo__control {
+  align-self: center;
+  margin-top: 10px;
+}
+
+.control {
+  display: flex;
+}
+
+.btn {
+  width: 200px;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  transition: all .3s;
+  border: 1px solid white;
+  outline: 0;
+}
+
+.btn:hover {
+  background-color: var(--pomodo-color-dark);
+}
+
+.control__stop {
+  margin-left: 20px;
+}
