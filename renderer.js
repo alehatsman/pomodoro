@@ -7,7 +7,7 @@ const STATE_PAUSED = 'STATE_PAUSED';
 const TYPE_PROGRESS = 'TYPE_PROGRESS';
 const TYPE_BREAK = 'TYPE_BREAK';
 
-const DEFAULT_PROGRESS_TIME = 1;
+const DEFAULT_PROGRESS_TIME = 25 * 60;
 const DEFAULT_SHORT_BREAK_TIME = 5 * 60;
 const DEFAULT_LONG_BREAK_TIME = 15 * 60;
 
@@ -130,6 +130,7 @@ const app = new Vue({
           this.startBreak();
         } else {
           this.time = DEFAULT_PROGRESS_TIME;
+          this.type = TYPE_PROGRESS;
         }
         return;
       }
