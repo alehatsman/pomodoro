@@ -2,17 +2,19 @@
   "name": "pomodoro",
   "version": "0.0.1",
   "description": "Pomodoro timer ",
-  "main": "electron .",
+  "main": "index.js",
   "scripts": {
     "start": "electron .",
+    "build": "electron-packager ./ pomodoro --overwrite --asar",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aleh Atsman",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^2.0.5"
+    "electron": "2.0.5",
+    "electron-packager": "12.1.0"
   },
   "dependencies": {
-    "vue": "^2.5.16"
+    "vue": "2.5.16"
   }
 }
