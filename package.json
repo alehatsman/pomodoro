@@ -26,7 +26,6 @@
     "webpack-cli": "^3.0.8"
   },
   "dependencies": {
-    "dataurl": "^0.1.0",
     "vue": "2.5.16"
   }
 }
