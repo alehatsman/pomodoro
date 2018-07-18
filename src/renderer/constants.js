@@ -1,0 +1,10 @@
+export const STATE_NOT_STARTED = 'STATE_NOT_STARTED'
+export const STATE_IN_PROGRESS = 'STATE_IN_PROGRESS'
+export const STATE_PAUSED = 'STATE_PAUSED'
+
+export const TYPE_PROGRESS = 'TYPE_PROGRESS'
+export const TYPE_BREAK = 'TYPE_BREAK'
+
+export const DEFAULT_PROGRESS_TIME = 25 * 60
+export const DEFAULT_SHORT_BREAK_TIME = 5 * 60
+export const DEFAULT_LONG_BREAK_TIME = 15 * 60
