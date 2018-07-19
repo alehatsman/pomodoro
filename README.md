@@ -6,6 +6,8 @@
 
 Read [pomodoro technique](https://francescocirillo.com/pages/pomodoro-technique)
 
+![Pomodoro](https://raw.githubusercontent.com/Atsman/pomodoro/master/assets/tomato.svg)
+
 ## Usage
 
 App is currently in development. As soon as i will feel that it is ready, i will create release and attach binaries.
