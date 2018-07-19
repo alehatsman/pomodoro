@@ -12,17 +12,17 @@ App is currently in development. As soon as i will feel that it is ready, i will
 
 ### Run locally
 
-`
+```
 npm i
 npm start
-`
+```
 
 ### Build binary
 
-`
+```
 npm webpack
 npm build
-`
+```
 
 ## License
 
