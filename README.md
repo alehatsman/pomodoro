@@ -26,6 +26,10 @@ npm webpack
 npm build
 ```
 
+## Screenshot
+
+<img src="/docs/screenshot1.png" alt="Screenshot1"/>
+
 ## License
 
 [MIT](LICENSE)
