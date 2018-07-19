@@ -10,11 +10,18 @@ Read [pomodoro technique](https://francescocirillo.com/pages/pomodoro-technique)
 
 App is currently in development. As soon as i will feel that it is ready, i will create release and attach binaries.
 
-## Run locally
+### Run locally
 
 `
 npm i
 npm start
+`
+
+### Build binary
+
+`
+npm webpack
+npm build
 `
 
 ## License
