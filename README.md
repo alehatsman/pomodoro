@@ -6,7 +6,7 @@
 
 Read [pomodoro technique](https://francescocirillo.com/pages/pomodoro-technique)
 
-![Pomodoro](https://raw.githubusercontent.com/Atsman/pomodoro/master/assets/tomato.svg)
+<img src="/assets/tomato.svg" alt="Pomodoro"/>
 
 ## Usage
 
