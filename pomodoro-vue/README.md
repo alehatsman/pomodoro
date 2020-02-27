@@ -8,10 +8,6 @@ Read [pomodoro technique](https://francescocirillo.com/pages/pomodoro-technique)
 
 <img src="/assets/tomato.svg" alt="Pomodoro"/>
 
-## Usage
-
-App is currently in development. As soon as i will feel that it is ready, i will create release and attach binaries.
-
 ### Run locally
 
 ```
@@ -28,7 +24,7 @@ npm build
 
 ## Screenshot
 
-<img src="/docs/screenshot1.png" alt="Screenshot1"/>
+<img src="/docs/screenshot.png" alt="Application screenshot"/>
 
 ## License
 
